@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My kewl website</title>
+    <link href="css/master.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Lato" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <header>
+                <h1>NICHOLAS BATES</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="/Default.aspx">Home</a></li>
+                    <li><a href="/pages/projects.aspx">Projects</a></li>
+                    <li><a href="/pages/bio.aspx">About Me</a></li>
+                    <li><a href="/pages/contact.aspx">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+            </main>
+            <footer>
+                <a href="mailto:me@me.com"><address>me@me.com</address></a>
+                <small>Copyright me 2016</small>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
