@@ -6,11 +6,13 @@ if (selected === "home") {
     fileLocation = "home/home.html";
 }
 
-var loadCode = $(function(fileLocation) {
-    $("#dynamic").load(fileLocation);
-});
+function loadCode(file) {
+    $("#dynamic").load(file);
+}
 
+loadCode(fileLocation);
 loadCode("bio.html");
+
 
 //$.get(fileLocation, function(data) {
 //    htmlCode = data;
