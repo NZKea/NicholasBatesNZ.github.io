@@ -7,7 +7,5 @@ if (selected === "home") {
 }
 
 $.get(fileLocation, function(data) {
-    htmlCode = data;
-});
-
-document.getElementById("dynamic").innerHTML = htmlCode;
+    document.getElementById("dynamic").innerHTML = data;
+}); 
