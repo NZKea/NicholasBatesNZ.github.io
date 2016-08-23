@@ -10,7 +10,7 @@ function init() {
         fileLocation = "contact/contact.html";
     }
     else {
-        fileLocation = "error/oobe.html";
+        fileLocation = "errors/oobe.html";
     }
 
     $("#dynamic").load(fileLocation);
