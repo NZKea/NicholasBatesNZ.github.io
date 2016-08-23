@@ -6,6 +6,12 @@ if (selected === "home") {
     fileLocation = "home/home.html";
 }
 
-$.get(fileLocation, function(data) {
-    document.getElementById("dynamic").innerHTML = data;
-}); 
+$(function() {
+    $("#dynamic").load(fileLocation);
+});
+
+//$.get(fileLocation, function(data) {
+//    htmlCode = data;
+//});
+
+//document.getElementById("dynamic").innerHTML = htmlCode;
