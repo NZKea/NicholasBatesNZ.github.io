@@ -4,7 +4,7 @@
 		<title>Nicholas Bates NZ</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--<link rel="stylesheet" href="assets/css/main.css" />-->
+		<link rel="stylesheet" href="main.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -21,9 +21,12 @@
 			<h1><a href="index.html">Nicholas Bates</a> New Zealand</h1>
 			<nav>
 				<form>
-					<input type="radio" name="nav" onchange="init()" id="home" value="home" checked>Home</br>
-					<input type="radio" name="nav" onchange="init()" id="projects" value="projects">Projects</br>
-					<input type="radio" name="nav" onchange="init()" id="contact" value="contact">Contact</br>
+					<input type="radio" name="nav" onchange="init()" id="home" value="home" checked>
+						<label for="home">Home</label>
+					<input type="radio" name="nav" onchange="init()" id="projects" value="projects">
+						<label for="projects">Projects</label>
+					<input type="radio" name="nav" onchange="init()" id="contact" value="contact">
+						<label for="contact">Contact</label>
 				</form>
 			</nav>
 		</header>
