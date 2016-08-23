@@ -15,3 +15,5 @@ function init() {
 
     $("#dynamic").load(fileLocation);
 }
+
+window.onload = init();
