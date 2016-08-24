@@ -29,15 +29,15 @@ input[type=radio] {
 }
 
 input[type=radio]:checked + label {
-    background-color: red;
+    background-color: #CC6600;
 }
 
 label:hover {
-    background-color: blue;
+    background-color: #FF9900;
 }
 
 label {
     cursor: pointer;
-    color: green;
+    color: #FFFBD0;
     padding: 1% 2% 1% 2%;
 }
