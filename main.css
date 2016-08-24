@@ -9,6 +9,10 @@ nav {
     background-color: black;
     color: #FFFBD0;
     padding: 1%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    
 }
 
 nav ul {
@@ -39,4 +43,22 @@ label {
 
 b {
     padding-right: 1%;
+}
+
+footer {
+    padding: 1%;
+    background-color: black;
+    color: #FFFBD0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+#dynamic {
+    padding: 4% 1% 4% 1%;
+    position: absolute;
+    overflow: auto;
+    z-index: -1;
 }
