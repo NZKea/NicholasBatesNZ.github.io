@@ -4,14 +4,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-b {
-    color: white;
-    padding-right: 1%;
-}
-
 nav {
     display: block;
     background-color: black;
+    color: #FFFBD0;
     padding: 1%;
 }
 
@@ -38,6 +34,9 @@ label:hover {
 
 label {
     cursor: pointer;
-    color: #FFFBD0;
     padding: 1% 2% 1% 2%;
+}
+
+b {
+    padding-right: 1%;
 }
