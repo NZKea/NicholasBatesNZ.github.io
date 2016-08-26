@@ -55,9 +55,20 @@ footer {
     right: 0;
 }
 
-#dynamic {
-    padding: 4% 1% 4% 1%;
+#dynamic, aside {
+    top: 3em;
+    padding: 1%;
     position: absolute;
     overflow: auto;
     z-index: -1;
+    border: solid black 1px;
+}
+
+#dynamic {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    right: 0;
 }
