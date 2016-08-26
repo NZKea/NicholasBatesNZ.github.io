@@ -1,9 +1,15 @@
+/* Normalisation */
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    background-color: #FFFBD0;
+}
+
+/* Navigation bar */
 nav {
     display: block;
     background-color: black;
@@ -45,6 +51,7 @@ b {
     padding-right: 1%;
 }
 
+/* Footer */
 footer {
     padding: 1%;
     background-color: black;
@@ -55,6 +62,7 @@ footer {
     right: 0;
 }
 
+/* Main content */
 #dynamic, aside {
     top: 3em;
     padding: 1%;
@@ -62,6 +70,13 @@ footer {
     overflow: auto;
     z-index: -1;
     border: solid black 1px;
+    background-color: rgba(255, 153, 0, 0.5);
+}
+
+article {
+    padding: 1em;
+    border: solid black 1px;
+    background-color: #FFFBD0;
 }
 
 #dynamic {
