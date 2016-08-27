@@ -18,6 +18,7 @@ nav {
     position: fixed;
     right: 0;
     left: 0;
+    z-index: 100;
 }
 
 nav ul {
@@ -63,27 +64,21 @@ footer {
 }
 
 /* Main content */
-#dynamic, aside {
-    top: 3em;
+img {
+    position: fixed;
+    top: 1em;
+}
+
+#dynamic {
     padding: 1%;
-    position: absolute;
-    overflow: auto;
-    z-index: -1;
-    border: solid black 1px;
-    background-color: rgba(255, 153, 0, 0.5);
+    position: relative;
+    padding-top: 75vh;
 }
 
 article {
     padding: 1em;
+    margin-bottom: 1em;
     border: solid black 1px;
-    background-color: #FFFBD0;
-}
-
-#dynamic {
-    width: 70%;
-}
-
-aside {
-    width: 25%;
-    right: 0;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
