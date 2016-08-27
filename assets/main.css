@@ -69,10 +69,19 @@ img {
     top: 1em;
 }
 
+h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 25vh;
+    font-size: 7em;
+}
+
 #dynamic {
     padding: 1%;
     position: relative;
-    padding-top: 75vh;
+    padding-top: 55vh;
 }
 
 article {
