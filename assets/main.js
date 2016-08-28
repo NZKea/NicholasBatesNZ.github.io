@@ -14,7 +14,7 @@ function init() {
     }
     else if (document.getElementById("contact").checked) {
         fileLocation = "contact/contact.html";
-        mainImage = "contact/erebor.jpg";
+        mainImage = "contact/rosie.jpg";
         heading = "Contact Me";
     }
     else {

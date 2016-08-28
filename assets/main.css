@@ -81,7 +81,7 @@ h1 {
 #dynamic {
     padding: 1%;
     position: relative;
-    padding-top: 55vh;
+    top: 55vh;
 }
 
 article {
