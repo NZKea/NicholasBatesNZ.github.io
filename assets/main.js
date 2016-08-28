@@ -1,6 +1,5 @@
-var fileLocation, mainImage, heading;
-
-function init() {
+function change() {
+    var fileLocation, mainImage, heading;
 
     if (document.getElementById("home").checked) {
         fileLocation = "home/home.html";
@@ -26,5 +25,19 @@ function init() {
     $("#dynamic").load(fileLocation);
     document.getElementById("heading").innerHTML = heading;
 }
+
+function sizeHeader() {
+    $("#headingDiv").css("top", document.getElementById("nav").getBoundingClientRect().bottom);
+    $("#headingDiv").css("bottom", document.getElementById("dynamic").getBoundingClientRect().top);
+}
+
+function init() {
+    change();
+    sizeHeader();
+}
+
+$(window).scroll(function() {
+    sizeHeader();
+});
 
 window.onload = init();

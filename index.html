@@ -18,21 +18,21 @@
 		</script>
 	</head>
 	<body>
-		<nav>
+		<nav id="nav">
 			<ul>
 				<li>
 					<b>Nicholas Bates NZ</b>
 				</li>
 				<li>
-					<input type="radio" name="nav" onchange="init()" id="home" value="home" checked>
+					<input type="radio" name="nav" onchange="change()" id="home" value="home" checked>
 					<label for="home">Home</label>
 				</li>
 				<li>
-					<input type="radio" name="nav" onchange="init()" id="projects" value="projects">
+					<input type="radio" name="nav" onchange="change()" id="projects" value="projects">
 					<label for="projects">Projects</label>
 				</li>
 				<li>
-					<input type="radio" name="nav" onchange="init()" id="contact" value="contact">
+					<input type="radio" name="nav" onchange="change()" id="contact" value="contact">
 					<label for="contact">Contact</label>
 				</li>
 			</ul>
@@ -40,7 +40,7 @@
 
 		<!--------------- CONTENT DECIDED BY JAVASCRIPT BASED ON THE SELECTED INPUT --------------->
 		<img id="mainImg" src="home/hobbiton.jpg" width="100%"/>
-		<h1 id="heading">Blog</h1>
+		<div id="headingDiv"><h1 id="heading">Blog</h1></div>
 		<main id="dynamic">
 			<section>
 				<article>
