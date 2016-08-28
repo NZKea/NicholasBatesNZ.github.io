@@ -76,7 +76,6 @@ h1 {
     right: 0;
     top: 3em;
     bottom: auto;
-    background-color: peru;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */

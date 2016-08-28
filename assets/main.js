@@ -28,7 +28,7 @@ function change() {
 
 function sizeHeader() {
     $("#headingDiv").css("top", document.getElementById("nav").getBoundingClientRect().bottom);
-    $("#headingDiv").css("bottom", document.getElementById("dynamic").getBoundingClientRect().top);
+    $("#headingDiv").css("bottom", window.innerHeight - document.getElementById("dynamic").getBoundingClientRect().top);
 }
 
 function init() {
